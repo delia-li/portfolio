@@ -98,6 +98,10 @@ defaults:
 
 ### Exclude from processing ###
 exclude:
+  - tmp/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
   - README.md
   - CONTRIBUTING.md
   - LICENSE
