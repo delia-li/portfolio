@@ -8,7 +8,7 @@ date: January 1, 2024 → February 1, 2024
 
 # Rate My Transit
 
-Welcome to Rate My Transit, a mobile app that provides real time updates on travel conditions from the local transit community. The goal of Rate My Transit is to help transit users share information with each other and to make public transit more accessible and enjoyable for all riders.
+Welcome to Rate My Transit, a mobile transit app designed to make your commute easier and more predictable. Rate My Transit gives users real-time updates on travel conditions from the local transit community. Unlike other transit apps, Rate My Transit prioritizes the user experience by avoiding ads and maintaining high accessibility standards. The vibrant community of transit users can share information over Rate My Transit to help other riders navigate travel conditions at stations and on transit vehicles.
 
 **Date**: January 1, 2024 → February 1, 2024
 
@@ -18,12 +18,11 @@ Welcome to Rate My Transit, a mobile app that provides real time updates on trav
 
 {% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="See a live demo on Figma" %}
 
-![preview](../rmt_assets/cover.png)
+![Cover photo of Rate my Transit screens and tools used](../rmt_assets/cover.png)
 
 {% capture list_items %}
-What is Rate My Transit?
-User-Centric Design Process
 Transit could be a lot more user friendly
+User-Centric Design Process
 Competitive Analysis
 Quantitative research
 Qualitative research
@@ -35,66 +34,70 @@ High Fidelity Prototype
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
 
-## What is Rate My Transit?
-
-Welcome to Rate My Transit, a mobile transit app designed to make your commute easier and more predictable. Rate My Transit gives users real-time updates on travel conditions from the local transit community. Unlike other transit apps, Rate My Transit prioritizes the user experience by avoiding ads and maintaining high accessibility standards. The vibrant community of transit users can share information over Rate My Transit to help other riders navigate travel conditions at stations and on transit vehicles.
+## Transit could be a lot more user friendly
+Many people experience difficulty with transit apps on their daily commute. Some apps display outdated information, others have too many ads, and many don’t meet accessibility standards. Transit users have turned to online forums like Reddit to get real-time updates on travel conditions. A transit-focused social media app that addresses these problems would help thousands of commuters.
 
 ## User-Centric Design Process
 
 1- Empathize
 
-- Competitive Analysis
-Comparing Rate My Transit to other transit apps
-- Qualitative Research
-Collecting the numbers from user surveys on factors like age group, app preferences and pain points
-- Quantitative Research
-Asking for written feedback and stories from real users in the target audience
+- Competitive Analysis: Comparing Rate My Transit to other transit apps
+- Qualitative Research: Collecting the numbers from user surveys on factors like age group, app preferences and pain points
+- Quantitative Research: Asking for written feedback and stories from real users in the target audience
 
 2- Define
 
-- User Personas
-Defining a couple user personas based on the data collected to represent the main demographics of potential users and their preferences
-- Problem Statements
-Identifying what problems users face
-- Proposed Solutions
-Listing the ways Rate My Transit could solve these problems
+- Defining two user personas based on the data collected to represent the main demographics of potential users and their preferences
+- Problem Statements: Identifying what problems users face
+- Proposing solutions that Rate My Transit could offer for these problems
 
 3- Ideate
 
-- Features
-Brainstorming which features to include
-- Information Architecture
-Building the sitemap and user flow of the app
+- Brainstorming which features to include
+- Information Architecture: Building the sitemap and user flow of the app
 
 4- Design
 
-- Wireframes
-Simple mockups to
-- Design System
-- High Fidelity Prototype
-
-## Transit could be a lot more user friendly
-Many people experience difficulty with transit apps on their daily commute. Some apps display outdated information, others have too many ads, and many don’t meet accessibility standards. Transit users have turned to online forums like Reddit to get real-time updates on travel conditions. A transit-focused social media app that addresses these problems would help thousands of commuters.
+- Wireframes: Simple mockups to show the key features and layouts of the app
+- Design System: Typography, color, and components used in the app
+- High Fidelity Prototype: A polished design of the app and a prototype of how the app would be used
 
 ## Competitive Analysis
 
 How does Rate My Transit compare with other transit apps?
 
-![preview](../rmt_assets/cover.png)
+✅ - has feature
+
+❌ - does not have feature
+
+➖ - not applicable
+
+|Features | Google Maps | OneBusAway | Transit | RMT|
+|:--|:--:|:--:|:--:|:--:|
+|Arrival times|✅|✅|✅|✅|
+|Conditions on each vehicle|❌|❌|✅|✅|
+|Conditions at the station|✅|❌|❌|✅|
+|Users can type comments|✅|❌|❌|✅|
+|Replies and upvotes|❌|❌|❌|✅|
+|Ad-free|❌|✅|❌|✅|
+|Rewards users for engagement|✅|➖|✅|✅|
+|Meets accessibility standards|✅|❌|❌|✅|
 
 ### Quantitative research
 
 Quantitative research helps to gather information about the kinds of users who would benefit the most from a new transit app. Who are the users and what are their primary concerns with existing transit apps?
 
-![preview](../rmt_assets/cover.png)
+![Graph of the age groups of transit users](../rmt_assets/age.png)
 
 The largest group of transit users were in the 19-35 age group. The second largest group was aged 36-55. The smallest groups were below 18 and over 55. 
 
-![preview](../rmt_assets/cover.png)
+![Pie chart of the apps transit users choose the most often to plan their trip](../rmt_assets/apps.png)
 
 Transit users in the survey mostly used Google Maps, Transit app, and OneBusAway to plan their travel.
 
-![preview](../rmt_assets/cover.png)
+![Graph of the problems users experience the most when using other apps for transit](../rmt_assets/issues_with_other_apps.png)
+
+The majority of users in the survey talked about outdated information. This pain point made it harder for them to rely on transit apps to plan their trip.
 
 ### Qualitative Research
 
@@ -124,12 +127,12 @@ Based on information gathered from quantitative research and qualitative researc
 
 **Persona 1**
 
-Name - City Nerd
-Age - 52
-Pronouns - he/him
-Location - Visiting Seattle from NYC
+| - | - |
+|---|---|
+| ![City Nerd profile picture, boop the orca mascot of sound transit](../rmt_assets/city_nerd.png) | Name - City Nerd<br>Age - 52<br>Pronouns - he/him<br>Location - Visiting Seattle from NYC|
 
-Retired professor and urban planner. City Nerd runs a popular YouTube Channel about urban design.
+
+_Retired professor and urban planner. City Nerd runs a popular YouTube Channel about urban design._
 
 Goals
 
@@ -143,12 +146,11 @@ Frustrations
 
 **Persona 2**
 
-Name - Angie T.
-Age - 22
-Pronouns - they/them
-Location - Capitol Hill
+| - | - |
+|---|---|
+| ![Angie profile picture, Barty mascot of Bay Area Rapid Transit](../rmt_assets/angie.png) | Name - Angie T.<br>Age - 22<br>Pronouns - they/them<br>Location - Capitol Hill (Seattle neighborhood)|
 
-Freelance artist working at a gallery in Capitol Hill. Angie is also an advocate at several disability rights groups.
+_Freelance artist working at a gallery in Capitol Hill. Angie is also an advocate at several disability rights groups._
 
 Goals
 
@@ -182,12 +184,12 @@ Solutions
 
 After conducting user research and building a list of solutions that Rate My Transit would offer, it’s now time to build the app designs. Wireframes show us what the early iterations of the features looked like.
 
-![preview](../rmt_assets/cover.png)
+![Wireframes of Rate my Transit in its early stages of design](../rmt_assets/wireframes.png)
 
 ## Design System
 
 The design system includes elements like color, icons, typography, and components.
-![preview](../rmt_assets/cover.png)
+![Design system of Rate my Transit](../rmt_assets/design_system.png)
 
 ## Feature Overview
 {% capture carousel_images %}
@@ -200,6 +202,6 @@ The design system includes elements like color, icons, typography, and component
 
 This is the final iteration of what the product would look like, with all of the styles and colors from the design system applied.
 
-![preview](../rmt_assets/cover.png)
+![High Fidelity prototype of rate my transit](../rmt_assets/hifi_prototype.png)
 
 {% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="See a live demo on Figma" block=true %}
