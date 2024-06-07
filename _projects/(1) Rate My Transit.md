@@ -30,6 +30,7 @@ User Personas
 Problem Statement
 Bringing Rate My Transit to life
 Design System
+Feature Overview
 High Fidelity Prototype
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
@@ -193,8 +194,10 @@ The design system includes elements like color, icons, typography, and component
 
 ## Feature Overview
 {% capture carousel_images %}
-../rmt_assets/cover.png
-../rmt_assets/cover.png
+../rmt_assets/feature_arrivals.png
+../rmt_assets/feature_comments.png
+../rmt_assets/feature_profile.png
+../rmt_assets/feature_rewards.png
 {% endcapture %}
 {% include elements/carousel.html %}
 
