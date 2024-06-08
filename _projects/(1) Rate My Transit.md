@@ -16,7 +16,9 @@ Welcome to Rate My Transit, a mobile transit app designed to make your commute e
 
 **Tools**: Figma, Google Forms, Google Maps
 
-{% include elements/button.html link="https://www.figma.com/proto/aieuCgf8mMRaZJQ4ZWdVnT/ratemytransit?node-id=212-613&t=pJakPFAuMHCGE4gR-1&scaling=min-zoom&page-id=108%3A231&starting-point-node-id=187%3A56" text="See a live demo on Figma" %}
+<a class="m-1 btn btn-outline-primary btn-md" href="https://www.figma.com/proto/aieuCgf8mMRaZJQ4ZWdVnT/ratemytransit?node-id=212-613&t=pJakPFAuMHCGE4gR-1&scaling=min-zoom&page-id=108%3A231&starting-point-node-id=187%3A56" target="_blank">
+See a live demo on Figma
+</a>
 
 ![Cover photo of Rate my Transit screens and tools used](../rmt_assets/cover.png)
 
@@ -207,4 +209,6 @@ This is the final iteration of what the product would look like, with all of the
 
 ![High Fidelity prototype of rate my transit](../rmt_assets/hifi_prototype.png)
 
-{% include elements/button.html link="https://www.figma.com/proto/aieuCgf8mMRaZJQ4ZWdVnT/ratemytransit?node-id=212-613&t=pJakPFAuMHCGE4gR-1&scaling=min-zoom&page-id=108%3A231&starting-point-node-id=187%3A56" text="See a live demo on Figma" block=true %}
+<a class="m-1 btn btn-outline-primary btn-block" href="https://www.figma.com/proto/aieuCgf8mMRaZJQ4ZWdVnT/ratemytransit?node-id=212-613&t=pJakPFAuMHCGE4gR-1&scaling=min-zoom&page-id=108%3A231&starting-point-node-id=187%3A56" target="_blank">
+See a live demo on Figma
+</a>
