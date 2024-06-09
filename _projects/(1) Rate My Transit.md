@@ -3,7 +3,7 @@ name: Rate My Transit
 tools: [Mobile Design, Public Transit, Social Media]
 image: ../rmt_assets/cover.png
 description: Rate My Transit is a mobile app that provides real time updates on travel conditions from the local transit community. Using Rate My Transit, transit users share information with each other to improve the experience for all riders.
-date: January 1, 2024 → February 1, 2024
+project_date: January 1, 2024 - February 1, 2024
 ---
 
 # Rate My Transit

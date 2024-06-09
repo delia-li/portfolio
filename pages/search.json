@@ -9,7 +9,7 @@ permalink: /search.json
       "tools"           : "{{ project.tools }}",
       "description"     : "{{ project.description | join: ', ' }}",
       "url"             : "{{ project.external_url | default: project.url | relative_url }}",
-      "date"            : "{{ project.date }}"
+      "date"            : "{{ project.project_date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
