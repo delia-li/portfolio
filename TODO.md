@@ -10,6 +10,8 @@ navbar and uses https://github.com/search?q=repo%3AYoussefRaafatNasry%2FportfolY
 
 -> nnot sure where navbar gets called. Is it through `default`?
 
+Might consider this bootstrap toggle? https://www.bootstraptoggle.com/
+
 
 # Change card columns to 2 instead of 3
 
