@@ -117,11 +117,7 @@ Frustrations
 - She is visually impaired and wants a blog that can read the articles to her like an audiobook.
 - She has a specific problem with one of her plants that she has not found good resources for. She hopes to talk directly to an expert because she has spent some time researching this issue without success.
 
-### User Personas
-
-Based on information gathered from quantitative research and qualitative research, we crafted user personas to represent the main users for our app.
-
-**Persona 1**
+**Persona 2**
 
 | - | - |
 |---|---|

@@ -16,7 +16,7 @@ League of Skins is a mobile gaming companion designed to help League of Legends 
 
 **Tools**: Figma, Google Forms, Notion
 
-<a class="m-1 btn btn-outline-primary btn-md" href="https://www.figma.com/proto/TrOFdC9J0Hr8uiLmAi1iB4/Dr.-succulent?node-id=279-200&t=pHXzgVzQMhhCPRh5-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=279%3A200" target="_blank">
+<a class="m-1 btn btn-outline-primary btn-md" href="https://www.figma.com/proto/WBxV07OpRVGRyuRdYKuPtS/coursera-project-apps?node-id=224-124&t=AGkKBbd0bsn5U0XL-1&scaling=min-zoom&content-scaling=fixed&page-id=224%3A121" target="_blank">
 See a live demo on Figma
 </a>
 
@@ -24,13 +24,12 @@ See a live demo on Figma
 
 {% capture list_items %}
 User-Centric Design Process
-Quantitative research
 Qualitative research
 User Personas
+User Pain Points
 Problem Statement
-Wireframes
+Building League of Skins
 Design System
-Feature Overview
 High Fidelity Prototype
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
@@ -62,6 +61,69 @@ The primary users of the app indicated that my mockups fit their needs. They als
 - Design System: Typography, color, and components used in the app
 - High Fidelity Prototype: A polished design of the app and a prototype of how the app would be used
 
+### Qualitative Research
+
+League of Legends players provided statements on their goals and frustrations while using or purchasing cosmetics in game. How could League of Skins improve the experience for players trying to enjoy the game with their newly bought skins?
+
+2102044 - Renekton and Aatrox main
+> “My support duo says it's harder to play with me if I use Project Renekton. They would rather I use Renektoy.”
+
+Reilly the Ghost - ARAM only player
+> “I play a huge champion pool and I never know when I will play the same champion again. I want to make sure I pick the right skin before I load into my next ARAM game.”
+
+thors_hammer - Diamond jungle smurf, permabanned
+> “I keep creating new accounts because I'm permabanned on my main account. I just want to know which skins to buy as gifts for my friends because all of my current accounts don't matter to me.”
+
+mumu in a lambo - Mid mages main
+> “I have spent over $5000 on this game and I'm not stopping until I buy every skin there is. Now, which ones will I actually use in game?”
+
+zhixuan - Offmeta support main
+> “I play weird things like Twitch, Anivia, and Twisted Fate support. I need extra time to look up the runes and settings for these champs, and the limited time in champ select makes it hard to complete these settings if I'm also trying to pick a skin.”
+
+TL Honda Pentalove - Aspiring pro ADC player
+> “I've been painstakingly tracking my stats across all of the skins I own to determine which ones I should use in pro play. My sponsorships depend on it!”
+
+### User Personas
+
+Based on information gathered from quantitative research and qualitative research, we crafted user personas to represent players who would benefit from League of Skins.
+
+**Persona 1**
+
+| - | - |
+|---|---|
+| ![2102044 kaugummi dango profile picture](../leagueofskins_assets/profile_210.png) | Username - 2102044<br>Age - 35<br>Pronouns - he/they<br>Location - NA Server|
+
+
+_Mainly plays Renekton and Aatrox in the top lane in Summoner's Rift. 2102044 usually plays alone, but sometimes his friend from high school plays one or two games together._
+
+Goals
+
+- 2102044 wants to have a good gaming experience with his high school friend, Tuan. Tuan is on the east coast and usually goes to sleep after one of two games, so 2102044 wants to make the most out of the limited games they play together.
+- Tuan plays supportive champions that rely on seeing teammates clearly. 2102044 wants his champion cosmetics to be the best for Tuan's playstyle.
+
+Frustrations
+
+- 2102044 just spent some money buying Project Renekton. But Tuan says he does not like playing with this skin because it is harder to see. Tuan prefers Renektoy on the ally team instead.
+- 2102044 wants to track his stats using Project Renekton compared to Renektoy. Was his purchase really worth it if his best friend struggles to enjoy the experience?
+
+**Persona 2**
+
+| - | - |
+|---|---|
+| ![zhixuan profile picture remix rumble](../leagueofskins_assets/profile_zhixuan.png) | Username - zhixuan<br>Age - 26<br>Pronouns - she/her<br>Location - Chengdu, China|
+
+_Mainly plays off-meta champions in the support role, such as Anivia, Twitch, and Twisted Fate._
+
+Goals
+
+- zhixuan likes to shake things up in game by playing exotic picks as support. She enjoys trying out new builds and looking up what the pros are building.
+- zhixuan recently got a gift of RP from her brother for her birthday. She spent it on Dragonslayer Twitch and she wants to perform well on the new skin.
+
+Frustrations
+
+- For the few days since she unlocked Dragonslayer Twitch, zhixuan has been struggling. She doesn't know if it's because she's playing worse or because bad team luck.
+- zhixuan wants to get to the bottom of this by tracking her stats while using different Twitch skins and then comparing them. Are her stats really worse on certain skins, or is she second-guessing herself?
+
 ### User Pain Points
 
 Quantitative research helps to gather information about the kinds of players who would benefit the most from League of Skins. What are their primary concerns while using cosmetics in League of Legends? How can League of Skins improve the experience for these players?
@@ -78,110 +140,36 @@ The player creates a spreadsheet to track their performance on different skins. 
 - **Pay to Lose**  
 The player's friends and teammates say the new skin they bought makes it harder to see their character in-game. The friends would rather this player use a different skin or the default champion model.
 
-### Qualitative Research
-
-League of Legends players provided statements on their goals and frustrations while using or purchasing cosmetics in game. How could League of Skins improve the experience for players trying to enjoy the game with their newly bought skins?
-
-2102044 - Renekton and Aatrox main
-> “My support duo says it's harder to play with me if I use Project Renekton. They would rather I use Renektoy.”
-
-Reilly the Ghost - ARAM only player
-> “I play a huge champion pool and I want to make sure I pick the right skin before I load into my next ARAM game.”
-
-thors_hammer - Diamond jungle smurf, permabanned
-> “I keep creating new accounts because I'm permabanned on my main account. I just want to know which skins to buy as gifts for my friends because all of my current accounts don't matter to me.”
-
-da golden toilet - Mid mages main
-> “I have spent over $5000 on this game and I'm not stopping until I buy every skin there is. Now, which ones will I actually use in game?”
-
-zhixuan - Offmeta support main
-> “I play weird things like Twitch, Anivia, and Camille support. I need extra time to look up the runes and settings for these champs, and the limited time in champ select makes it hard to complete these settings if I'm also trying to pick a skin.”
-
-TL Honda Pentalove - Aspiring pro ADC player
-> “I've been painstakingly tracking my stats across all of the skins I own to determine which ones I should use in pro play. My sponsorships depend on it!”
-
-### User Personas
-
-Based on information gathered from quantitative research and qualitative research, we crafted user personas to represent the main users for Dr. Succulent.
-
-**Persona 1**
-
-| - | - |
-|---|---|
-| ![Camilla Rojas profile picture cartoonified](../succulent_assets/camilla.png) | Name - Camilla Rojas<br>Age - 34<br>Pronouns - she/her<br>Location - Denver, Colorado, USA|
-
-
-_Technician at a local radiology clinic and succulent hobbyist. Mother of 2._
-
-Goals
-
-- Wants to raise a garden of healthy succulents that grow outside, but is concerned that she is doing it wrong
-- She loves collecting more species of plants to diversify her garden and she wants to find good resources on how to properly care for each new species.
-
-Frustrations
-
-- She is visually impaired and wants a blog that can read the articles to her like an audiobook.
-- She has a specific problem with one of her plants that she has not found good resources for. She hopes to talk directly to an expert because she has spent some time researching this issue without success.
-
-### User Personas
-
-Based on information gathered from quantitative research and qualitative research, we crafted user personas to represent the main users for our app.
-
-**Persona 1**
-
-| - | - |
-|---|---|
-| ![Nguyen Hoang profile picture cartoonified](../succulent_assets/hoang.png) | Name - Nguyen Hoang<br>Age - 29<br>Pronouns - he/him<br>Location - Hanoi, Vietnam|
-
-_Busy sports physician for the local soccer club and youth team. He does not have a lot of time to research for gardening info._
-
-Goals
-
-- Hoang wants to raise healthy, beautiful succulents for his home and balcony. He wants to ask specific questions about the climate of his city, Hanoi, and whether it would be a bad idea to raise certain species of plants.
-- His friend Vin recently moved out of town and Hoang agreed to look after his plants. Vin checks on his plants every couple weeks and Hoang sends him photos on social media.
-
-Frustrations
-
-- Hoang didn't anticipate having this many plants. He is also concerned that the climate in his city is unsuited for succulents, which he bought a few of before he knew Vin would be moving out.
-- Hoang found online blogs but the information they presented was too general. Other blogs offered pseudoscientific information that was easy for Hoang, a physician, to debunk.
-
-## Problem Statement
-
-Based on our user research, we’ve identified the main problems with other gardening blogs and the ways Dr. Succulent will improve the user experience.
+### Problem Statement
 
 Problems
 
-- Unrealiable and pseudoscientific information makes fact-finding a nightmare for new gardeners
-- Too many ads
-- Lack of accessibility on many blogs makes them difficult for disabled users to navigate
-- Users want more information but can’t find the sources or citations
+- Players need an app to track their performance while using a certain skin.  
+Other apps only show data for the champion but have no option to filter by the skin.
+- Players want to use their best-performing skin when they enter competitive matches.
+- Players value accessibility. Existing apps sometimes fail to meet accessibility standards.
 
 Solutions
 
-- Cite scientific sources and biologists, and provide further reading
-- Build a lightweight, smooth app with no ads
-- Include an audio option for articles and make the UI compliant with accessibility. Colors will be WCAG compliant
-- Give users links to social media so they can ask questions directly to the gardening experts
+- Allow players to filter their stats by the skin owned.
+- Show detailed stats like KDA, vision per minute, income, and combat stats while using a skin
+- Make the UI compliant with accessibility. Colors will be WCAG compliant
 
-## Wireframes
+## Building League of Skins
 
-After conducting user research and building a list of ways Dr. Succulent would improve the experience for gardeners seeking information, it’s now time to build designs for the site. Wireframes show us what the early concepts for the pages looked like.
+After conducting user research and listing the features League of Skins would offer, it’s now time to bring the app to life.
 
-![Wireframes of Dr. Succulent](../succulent_assets/wireframes.png)
+![Wireframes of League of Skins](../leagueofskins_assets/wireframes.png)
 
 ## Design System
 
 The design system includes elements like color, icons, typography, and components.
-![Design system](../succulent_assets/design.png)
-
-## Feature Overview
-
-![Feature overview for Dr. Succulent](../succulent_assets/features.png)
+![Design system](../leagueofskins_assets/design_system.png)
 
 ## High Fidelity Prototype
-![High fidelity prototype for Dr. Succulent](../succulent_assets/hi_fidelity.png)
+![High fidelity prototype for League of Skins](../leagueofskins_assets/hifi_prototype.png)
 
 
-<a class="m-1 btn btn-outline-primary btn-block" href="https://www.figma.com/proto/TrOFdC9J0Hr8uiLmAi1iB4/Dr.-succulent?node-id=279-200&t=pHXzgVzQMhhCPRh5-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=279%3A200" target="_blank">
+<a class="m-1 btn btn-outline-primary btn-block" href="https://www.figma.com/proto/WBxV07OpRVGRyuRdYKuPtS/coursera-project-apps?node-id=224-124&t=AGkKBbd0bsn5U0XL-1&scaling=min-zoom&content-scaling=fixed&page-id=224%3A121" target="_blank">
 See a live demo on Figma
 </a>
