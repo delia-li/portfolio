@@ -1,0 +1,40 @@
+- title: UI/UX Designer
+  company: Karat, Inc.
+  from: 2022
+  to: 2023
+  description: Designed and implemented key pages for IVEs (Interview Engineers) as part of the IVE
+                Dashboard V2 Redesign team. Conducted user research by creating a dedicated Slack channel to gather
+                feedback from beta testers and applying the feedback in Figma. The redesigned dashboard boosted IVE
+                productivity and engagement by moving frequently used pages like past interviews and upcoming
+                interviews to a more central location on the landing page.<br><br>
+
+                Designed, tested, and conducted user research for the project to rework email notifications for
+                candidates and IVEs. The optimized email design reduced IVE error rates and increased interview
+                attendance rates.<br><br>
+
+                Redesigned the wiki format to improve the experience for Oncall engineers supporting the team.
+
+- title: Software Engineer II
+  company: Karat, Inc.
+  from: 2021
+  to: 2022
+  description: Ran and maintained customer and internal PII scripts to support hundreds of data privacy requests.<br><br>
+
+                Mentored two interns and onboarded new engineers to the team. Tutored new hires at the 6-month
+                mark for oncall duties by partnering with them as primary oncall and oncall shadow.
+
+- title: Software Engineer I
+  company: Amazon Web Services
+  from: 2019
+  to: 2021
+  description: Facilitated and supported the partner team in India, generating thousands of dollars worth of Bill Run
+                completions across Q4 of 2020 and Q1 of 2021.<br><br>
+
+                Mentored two undergraduate interns and onboarded several new full-time hires through the
+                Onboarding Buddy system
+
+- title: Software Engineering Intern
+  company: Amazon Web Services
+  from: 2018
+  to: 2018
+  description: Designed and built a React site using the AWS Native UI framework, Polaris. The site replaced a command line terminal, improving the user experience for hundreds of cross-team and internal customers validating the revenue of their AWS products.
