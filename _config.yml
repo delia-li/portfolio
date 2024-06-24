@@ -1,11 +1,8 @@
 ### Site Settings ###
 title               : Delia Li - UI/UX Designer
 description         : >-
-                      Hello! I'm Delia Li, a Junior UI/UX Designer. 
-                      I studied Computer Science and International Comparative Studies at Duke. 
-                      I’m formerly a software developer who transitioned into UX Design at my last role. 
-                      I love applying my skills to create impactful digital experiences. 
-                      Let’s build something together!
+                      Hello! I'm Delia Li, a UI/UX Designer. 
+                      I design impactful digital experiences and products. I studied Computer Science and International Comparative Studies at Duke. I’m formerly a software developer who transitioned into UX Design at my last role.
 # baseurl             : "/portfolio"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : https://github.com/delia-li/portfolio    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU

@@ -1,7 +1,15 @@
-- name: Adobe Photoshop
+- name: Github
+  percentage: 95
+  color: success
+
+- name: Visual Studio Code
+  percentage: 90
+  color: 
+
+- name: Jira
   percentage: 95
   color: info
 
-- name: Adobe Illustrator
+- name: IntelliJ
   percentage: 90
-  color: success
+  color: danger

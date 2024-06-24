@@ -16,4 +16,4 @@ Bootstrap styles https://getbootstrap.com/docs/4.0/components/badge/
 
 Jekyll docs https://jekyllrb.com/docs/includes/#including-files-relative-to-another-file
 
-The site for this repo https://delia-li.github.io/portfolio/
+The site is live at https://delia-li.github.io/portfolio/

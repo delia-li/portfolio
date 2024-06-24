@@ -7,12 +7,12 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hello!:wave: I am **{{ site.author.name }}**,<br>
+I design impactful digital experiences and products. I studied Computer Science and International Comparative Studies at Duke. I’m formerly a software developer who transitioned into UX Design at my last role.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include_relative project_classes/skills.html title="Design Skills" source=site.data.programming-skills %}
+{% include_relative project_classes/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
 ## Experience
@@ -22,5 +22,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Education
 <div class="row">
-{% include about/timeline.html %}
+{% include_relative project_classes/education.html %}
 </div>
