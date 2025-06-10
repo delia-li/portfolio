@@ -5,7 +5,6 @@ permalink: /
 
 {% include landing.html %}
 
-
 ## Featured Project
 
   <div class="wow animated fadeIn" data-wow-delay=".15s">
@@ -18,4 +17,3 @@ permalink: /
         <p class="card-text"><small class="text-muted">January 1, 2024 - February 1, 2024</small></p>
       </div>
     </div>
-
