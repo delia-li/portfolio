@@ -58,3 +58,8 @@ no clue how- bootstrap docs don't include anything for collapsing it https://get
 
 might also consider flush style https://getbootstrap.com/docs/4.0/components/list-group/#flush
 
+
+# Fix search bar
+
+
+{% include_relative project_classes/project_search.html %}
