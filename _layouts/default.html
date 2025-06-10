@@ -12,89 +12,83 @@
 
 <body class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container mt-5">
+  <main class="flex-shrink-0 container mt-5" style="width: 100%;">
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg navbar-themed">
+    <div class="sticky-top" style="padding-top: 10px;">
+      <nav class="navbar navbar-expand-lg navbar-themed bg-themed"
+        style="border-radius: 5px; padding-top: 1em; padding-bottom: 1em;">
 
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <h5><b>{{ site.title }}</b></h5>
-      </a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <h5><b>
+              <img src="/{{ site.author.image }}" alt="profile" width="30" height="30"
+                class="d-inline-block align-text-top">
+              {{ site.title }}
+            </b></h5>
+        </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-1x fa-bars text-themed"></i>
-      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-1x fa-bars text-themed"></i>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
 
-          {%- assign html_pages = site.html_pages | sort: 'weight' -%}
-          {%- assign filtered_pages = "" | split: "" -%}
+            {%- assign html_pages = site.html_pages | sort: 'weight' -%}
+            {%- assign filtered_pages = "" | split: "" -%}
 
-          {%- for html_page in html_pages -%}
+            {%- for html_page in html_pages -%}
 
-          {%- assign exclude = false -%}
+            {%- assign exclude = false -%}
 
-          {%- for exclude_path in site.nav_exclude -%}
+            {%- for exclude_path in site.nav_exclude -%}
 
-          {%- if exclude_path == html_page.path -%}
-          {%- assign exclude = true -%}
-          {%- break -%}
-          {%- elsif exclude_path contains '**' -%}
-          {%- assign match = exclude_path | remove: '**' -%}
-          {%- if html_page.path contains match -%}
-          {%- assign exclude = true -%}
-          {%- break -%}
-          {%- endif -%}
-          {%- endif -%}
+            {%- if exclude_path == html_page.path -%}
+            {%- assign exclude = true -%}
+            {%- break -%}
+            {%- elsif exclude_path contains '**' -%}
+            {%- assign match = exclude_path | remove: '**' -%}
+            {%- if html_page.path contains match -%}
+            {%- assign exclude = true -%}
+            {%- break -%}
+            {%- endif -%}
+            {%- endif -%}
 
-          {%- endfor -%}
+            {%- endfor -%}
 
-          {%- unless exclude -%}
-          {%- assign filtered_pages = filtered_pages | push: html_page -%}
-          {%- endunless -%}
+            {%- unless exclude -%}
+            {%- assign filtered_pages = filtered_pages | push: html_page -%}
+            {%- endunless -%}
 
-          {%- endfor -%}
+            {%- endfor -%}
 
-          {% for html_page in filtered_pages %}
+            {% for html_page in filtered_pages %}
 
-          {%- if page.url contains html_page.url -%}
-          {%- assign active_status = "active" -%}
-          {%- else -%}
-          {%- assign active_status = "" -%}
-          {%- endif -%}
+            {%- if page.url contains html_page.url -%}
+            {%- assign active_status = "active" -%}
+            {%- else -%}
+            {%- assign active_status = "" -%}
+            {%- endif -%}
 
-          {%- if html_page.external_url -%}
-          {%- assign url = html_page.external_url -%}
-          {%- else -%}
-          {%- assign url = html_page.url | relative_url -%}
-          {%- endif -%}
+            {%- if html_page.external_url -%}
+            {%- assign url = html_page.external_url -%}
+            {%- else -%}
+            {%- assign url = html_page.url | relative_url -%}
+            {%- endif -%}
 
-          <a class="nav-item nav-link {{ active_status }}" href="{{ url }}" {%- if html_page.external_url and
-            site.open_new_tab -%} target="_blank" {%- endif -%}>{{ html_page.title }}</a>
+            <a class="nav-item nav-link {{ active_status }}" style="width: fit-content;" href="{{ url }}" {%- if
+              html_page.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>{{ html_page.title }}</a>
 
-          {% endfor %}
+            {% endfor %}
 
-          <script>
-            function toggleme(e) {
-              console.log("toggler entered")
-              if (e.checked) setTheme("dark")
-              else setTheme("light")
-            };
-          </script>
-
-          <!-- <span class="nav-item nav-link" ><button class="btn active" aria-pressed="true" type="button" onclick="toggleTheme()" data-bs-toggle="button">Switch Theme</button></span> -->
-
-          <a class="nav-item nav-link" onclick="toggleTheme()"
-            style="color: #007bff; background-color: #c5c5c5cc; border-radius: 5px;">Swap Theme</a>
-
-          <!-- <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off" onclick="toggleme(this)">
-          <label class="btn btn-primary" for="btn-check">Single toggle</label> -->
+            <a class="nav-item nav-link" onclick="toggleTheme()"
+              style="background-color: #cecece93; border-radius: 5px; width: fit-content; padding-left: 0.5em; padding-right: 0.5em;">Swap
+              Theme</a>
+          </div>
         </div>
-      </div>
 
-    </nav>
-
+      </nav>
+    </div>
     <!-- end navbar -->
 
     {{ content }}
@@ -110,8 +104,6 @@
 
   {% include analytics.html %}
   {% include scripts.html %}
-  <!-- <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script> -->
 </body>
 
 </html>

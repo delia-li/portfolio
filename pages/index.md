@@ -3,7 +3,21 @@ layout: default
 permalink: /
 ---
 
-{% include landing.html %}
+<div class="row justify-content-center align-items-center p-4">
+  <div class="col-md-6 text-center mt-4" style="width: 100%">
+
+    <!-- Fine Circle Responsive Image -->
+    <div id="container" class="mx-auto" style="width: 175px;">
+      <div id="dummy"></div>
+      <div id="element">
+        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+      </div>
+    </div>
+
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+
+  </div>
+</div>
 
 ## Featured Project
 
