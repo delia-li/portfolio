@@ -61,5 +61,7 @@ might also consider flush style https://getbootstrap.com/docs/4.0/components/lis
 
 # Fix search bar
 
+```
+include_relative project_classes/project_search.html
 
-{% include_relative project_classes/project_search.html %}
+```
