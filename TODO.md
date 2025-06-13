@@ -6,23 +6,6 @@ a nice-to-have. This would be more accessible for screenreaders and search https
 
 in the code: https://github.com/YoussefRaafatNasry/portfolYOU/blob/master/_includes/elements/carousel.html
 
-# Fix those gross icons for light/dark mode
-
-**priority**: medium
-
-icons scss and reference to them https://github.com/search?q=repo%3AYoussefRaafatNasry%2FportfolYOU%20theme-toggler&type=code
-
-toggletheme and reference https://github.com/search?q=repo%3AYoussefRaafatNasry%2FportfolYOU+toggleTheme%28%29&type=code
-
-navbar and uses https://github.com/search?q=repo%3AYoussefRaafatNasry%2FportfolYOU+navbar&type=code
-
--> nnot sure where navbar gets called. Is it through `default`?
-
-Might consider this bootstrap toggle? https://www.bootstraptoggle.com/
-
-# Consider adding jumbotron for featured project?
-https://getbootstrap.com/docs/4.0/components/jumbotron/
-
 # Add blockquotes for user insights
 https://getbootstrap.com/docs/4.0/content/typography/#blockquotes
 
@@ -43,12 +26,6 @@ https://getbootstrap.com/docs/4.0/content/tables/
 
 add techwriting portfolio selections and some blog writing about accessibility in climbing etc 
 
-# Sticky navbar
-
-**priority**: high
-
-bootstrap resource for sticky navbar https://getbootstrap.com/docs/4.0/components/navbar/#placement
-
 
 # Make table of contents collapsible
 
@@ -58,9 +35,11 @@ no clue how- bootstrap docs don't include anything for collapsing it https://get
 
 might also consider flush style https://getbootstrap.com/docs/4.0/components/list-group/#flush
 
+Would have to replace this item from the parent repo: https://github.com/yousinix/portfolYOU/blob/master/_includes/elements/list.html
 
 # Fix search bar
 
+search bar stopped working after we added the changes to the navbar
 ```
 include_relative project_classes/project_search.html
 
