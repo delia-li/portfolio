@@ -171,6 +171,8 @@ See a live demo on Figma
 </a>
 
 
+
+
 ## Conclusions and Next Steps
 
 Building Rate My Transit has been one of my favorite projects. Transit accessibility and expansion is an area I feel passionate about and I think apps can do a lot to enhance the transit experience for riders everywhere.
@@ -183,4 +185,4 @@ Here are some of my key takeaways:
 Next Steps
 * Integration with external social media apps like Reddit, Twitter, and mainstream news sites would help get even more timely, updated tags for travel conditions. This would enable AI summaries and crossposting for RMT users.
 * Rewarding users with tangible benefits would be a great incentive for more users to join the community. This could mean discounts on transit passes, coupons for transit merchandise, and perks for local businesses that sponsor transit. Such a feature would mean having my app enter partnerships with transit systems and businesses.
-* A groups and chat feature would help riders coordinate with travel buddies and others who frequently use the same lines. 
+* A groups and chat feature would help riders coordinate with travel buddies and others who frequently use the same lines.

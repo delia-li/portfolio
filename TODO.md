@@ -1,16 +1,5 @@
-# Get rid of carousel
-
-**priority**: high
-
-a nice-to-have. This would be more accessible for screenreaders and search https://getbootstrap.com/docs/4.0/components/carousel/#with-captions
-
-in the code: https://github.com/YoussefRaafatNasry/portfolYOU/blob/master/_includes/elements/carousel.html
-
 # Add blockquotes for user insights
 https://getbootstrap.com/docs/4.0/content/typography/#blockquotes
-
-# add T chart for problems and solutions
-https://getbootstrap.com/docs/4.0/content/tables/
 
 # Change card columns to 2 instead of 3
 
