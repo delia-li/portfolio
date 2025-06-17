@@ -26,19 +26,19 @@ Many people experience difficulty with transit apps on their daily commute. Some
 
 
 {% capture list_items %}
-Empathize
-Define
-Ideate
-Design
+Phase 1: Empathize
+Phase 2: Define
+Phase 3: Ideate
+Phase 4: Design
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
 
 
 
-## Empathize
+## Phase 1: Empathize
 The inspiration for Rate My Transit was born from the daily struggles of public transit users to obtain timely and accurate information about travel conditions. To start out, I conducted research on existing challenges, user goals, and feedback on how a transit app could fill the niche for the target audience. 
 
-### Where Transit apps come short
+#### Where Transit apps come short
 
 Do existing transit apps address the needs of transit users? What problems are not addressed?
 
@@ -58,14 +58,14 @@ Do existing transit apps address the needs of transit users? What problems are n
 |Rewards users for engagement|✅|➖|✅|
 |Meets accessibility standards|✅|❌|❌|
 
-### Reaching out to Users
+#### Reaching out to Users
 In January, I created a survey asking 20 transit users from the Seattle area about the challenges they face while using transit apps. The feedback primarily centered on updated information and travel conditions.
-
-![Graph of the problems users experience the most when using other apps for transit](../rmt_assets/issues_with_other_apps.png)
 
 The majority of users in the survey talked about outdated information. This pain point made it harder for them to rely on transit apps to plan their trip.
 
-### User Interviews and Quotes
+![Graph of the problems users experience the most when using other apps for transit](../rmt_assets/issues_with_other_apps.png)
+
+#### User Interviews and Quotes
 Transit users provided statements on their goals and frustrations while using public transit apps. Their statements give valuable insights into how Rate My Transit could help most transit users.
 
 Shanelle - Influencer
@@ -74,10 +74,9 @@ Shanelle - Influencer
 Stephan - Sports retailer
 > ”When I visit a new city to attend a game or promotional events, it’s hard to navigate the transit system for the first time. I’d love an app that generally covers transit stops anywhere.”
 
-## Define
-Using the data I have gathered from talking to real transit users around the community, it's time to define the scope of the problems and propose solutions that Rate My Transit could offer.
+## Phase 2: Define
 
-### User Personas
+#### User Personas
 
 Based on information gathered from quantitative research and qualitative research, I crafted user personas to represent the main two categories of transit users: visitors and locals.
 
@@ -117,16 +116,17 @@ Frustrations
 - They arrived at Capitol Hill station and took the first elevator from the platform to the mezzanine, only to find that the second elevator to the street level was out of service. As a result, they had to take the same elevator back down to the platform and use a separate elevator on the other side of the station. Angie wishes they could see information about elevator closures ahead of time.
 
 
-### Findings
+#### Proposing Solutions
 
 Based on feedback from users, I identified the main problems with existing transit apps and the ways Rate My Transit will address those problems.
 
 | Problems | Solutions |
 |---|---|
-|Transit information is outdated or inaccurate|Keep updates current, with the focus on real-time updates from the past 24 hours so users are not misled by posts from many years ago|
-|Riders want to know about conditions at stations too, not just on vehicles. Knowing what is working and what is broken ahead of time would help users plan alternate travel|Show, don’t tell. Rate My Transit communication will be driven by photos and comments, with a general mentions section composed of tags showing key words that other riders are talking about|
+|Transit information is outdated or inaccurate|Keep updates current, with the **focus on real-time updates from the past 24 hours** so users are not misled by posts from many years ago|
+|Riders want to know about conditions at stations too, not just on vehicles. Knowing what is working and what is broken ahead of time would help users plan alternate travel|Show, don’t tell. Rate My Transit **communication will be driven by photos and comments**. Users will be able to select the stations their vehicle will stop at, as well as the list of vehicles arriving at any given station.|
+|Riders feel overwhelmed by too much information in official transit announcements and long social media feeds. They just don't have the time to read it all.|Users will get an **AI summary** of what others have discussed with a **general mentions section composed of tags, key words, and ratings** from the past 24 hours|
 
-## Ideate
+## Phase 3: Ideate
 I brainstormed a set of features that would provide the solutions to the problems users experience in existing transit apps. 
 
 **Arrivals**
@@ -150,17 +150,17 @@ Some users also raised the concern that existing apps don't provide enough incen
 ![Feature: Arrivals](../rmt_assets/feature_rewards.png)
 
 
-## Design
+## Phase 4: Design
 
 After I interviewed users, defined problem scope and solutions, and narrowed down the set of features, I put together the wireframes, the style guide, and the high-fidelity designs.
 
-### Design System
+#### Design System
 
 The design system includes elements like color, icons, typography, and components. The visual clarity of the badges and components gives users a quality experience as they are looking for updated transit information, station and vehicle conditions, and travel recommendations around the city. The visual clarity of the elements upholds accessibility guidelines and makes the app enjoyable to use.
 
 ![Design system of Rate my Transit](../rmt_assets/design_system.png)
 
-### High Fidelity Prototype
+#### High Fidelity Prototype
 
 This is the final iteration of what the product would look like, with all of the styles and colors from the design system applied.
 
@@ -178,11 +178,11 @@ See a live demo on Figma
 Building Rate My Transit has been one of my favorite projects. Transit accessibility and expansion is an area I feel passionate about and I think apps can do a lot to enhance the transit experience for riders everywhere.
 
 Here are some of my key takeaways:
-* Users love summaries and concise information that's easily digestable. A key principle in user psychology is that everyone wants to conserve effort whenever possible. I found that having the auto-generated tags at the top of each station and vehicle did wonders for user satisfaction because it saved them the effort of having to scroll through all of the comments and do a lot of reading.
+* Users love summaries and concise information that's easily digestable. A key principle in user psychology is that everyone wants to conserve effort whenever possible. I found that having the **auto-generated tags at the top of each station and vehicle did wonders for user satisfaction** because it saved them the effort of having to scroll through all of the comments and do a lot of reading.
 
-* Outside of the core features that address the major challenges faced by users I interviewed, the auxilary features like the profile, mascots, and rewards can truly delight users and bring personality to the app. I drew inspiration from existing transit system mascots like Boop the Orca (Sound Transit) and Barty the train (BART) which add a cuteness factor to public transit systems.
+* Outside of the core features that address the major challenges faced by users I interviewed, the **auxilary features like the profile, mascots, and rewards can truly delight users** and bring personality to the app. I drew inspiration from existing transit system mascots like Boop the Orca (Sound Transit) and Barty the train (BART) which add a cuteness factor to public transit systems.
 
-Next Steps
-* Integration with external social media apps like Reddit, Twitter, and mainstream news sites would help get even more timely, updated tags for travel conditions. This would enable AI summaries and crossposting for RMT users.
-* Rewarding users with tangible benefits would be a great incentive for more users to join the community. This could mean discounts on transit passes, coupons for transit merchandise, and perks for local businesses that sponsor transit. Such a feature would mean having my app enter partnerships with transit systems and businesses.
-* A groups and chat feature would help riders coordinate with travel buddies and others who frequently use the same lines.
+#### Next Steps
+* Integration with external social media apps like Reddit, Twitter, and mainstream news sites would help get even more timely, updated tags for travel conditions. Shares, invites, and crossposting would increase the user count in Rate My Transit and lead to more accurate transit ratings in the long term.
+* Rewarding users with tangible benefits would be a great incentive for more users to join the community and to keep existing users feeling engaged and valued for their efforts. This could mean discounts on transit passes, coupons for transit merchandise, and perks for local businesses that sponsor transit. Such a feature would mean having my app enter partnerships with transit systems and businesses.
+* A groups and chat feature would help riders coordinate with travel buddies and others who frequently use the same lines. This would help riders feel safer traveling during crowded times or late at night.
