@@ -16,15 +16,14 @@ https://getbootstrap.com/docs/4.0/content/typography/#blockquotes
 add techwriting portfolio selections and some blog writing about accessibility in climbing etc 
 
 
-# Make table of contents collapsible
+# Make table of contents sticky and on the left hand side
 
 **priority**: medium
 
-no clue how- bootstrap docs don't include anything for collapsing it https://getbootstrap.com/docs/4.0/components/list-group/
+one option is accordion https://getbootstrap.com/docs/5.3/components/accordion/
 
-might also consider flush style https://getbootstrap.com/docs/4.0/components/list-group/#flush
+another option is vertical navbar but does it allow nesting? https://getbootstrap.com/docs/5.3/components/navs-tabs/#vertical
 
-Would have to replace this item from the parent repo: https://github.com/yousinix/portfolYOU/blob/master/_includes/elements/list.html
 
 # Fix search bar
 
