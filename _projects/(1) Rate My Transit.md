@@ -1,6 +1,6 @@
 ---
 name: Rate My Transit
-tools: [Mobile Design, Public Transit, Social Media]
+tools: [App Design, Public Transit, Social Media]
 image: ../rmt_assets/cover.png
 description: A mobile app that provides real time updates on travel conditions from the local transit community. Using Rate My Transit, transit users share information with each other to improve the experience for all riders.
 project_date: January 1, 2024 - February 1, 2024
@@ -129,24 +129,35 @@ Based on feedback from users, I identified the main problems with existing trans
 ## Phase 3: Ideate
 I brainstormed a set of features that would provide the solutions to the problems users experience in existing transit apps. 
 
-**Arrivals**
+**Stops and Arrivals**
 
-A major request among users was to improve the reliability of arrival information.
+* Stops show up as pins. When selected, they glow and expand to show the vehicles that are scheduled to arrive there
+* Arrivals display the vehicle type, direction, and estimated arrival time
+* Tags indicate which lines serve a given station, in badges whose shapes reflect the mode of transit. The tags on each vehicle also inform users of whether they are running late
 ![Feature: Arrivals](../rmt_assets/feature_arrivals.png)
 
 **Comments and Social Media**
 
-Users reported having to turn to reddit, twitter, and other social media apps to get updates that transit apps could not convey, such as a description of conditions at a station or on board a train. Providing a discussion space for comments would save users the trouble of having to switch apps.
+Users reported having to turn to reddit, twitter, and other social media apps to get updates that transit apps could not convey, such as a description of conditions at a station or on board a train. Reading comments from other riders will save users the trouble of having to switch apps.
+* Tags show an AI summary of what other riders have mentioned the most
+* Comments include media, replies, and reacts to encourage users to engage positively with each other
+* The most recent posts will show up at the top. Posts older than 24 hours will be archived but still viewable
 ![Feature: Arrivals](../rmt_assets/feature_comments.png)
 
 **Profile and Notifications**
 
-Users who leave comments or ask questions would like updates, notifications, and other informative feedback as they navigate the app. The profile feature would allow them to manage settings and preferences, view their history, and authenticate with their email credentials for a secure user experience.
+Users who leave comments or ask questions would like updates, notifications, and other informative feedback as they navigate the app. They also want to feel secure and trust that others who post in the app are verified accounts.
+* The profile feature lets users manage settings and preferences, view their history, and sign out
+* History shows the user's activity and helps them get quickly to where they left off, or receive updates if others have interacted with their content
+* Users can authenticate with their email credentials and two factor authentication for a secure user experience. They would know that all other users who post or comment would have verified through email as well
 ![Feature: Arrivals](../rmt_assets/feature_profile.png)
 
-Bonus Feature: **Rewards**
+Bonus Feature: **Rewards and Gamification**
 
 Some users also raised the concern that existing apps don't provide enough incentives and rewards for users to post updates and reviews. Users put in time and effort to help others, and the app should reciprocate that by engaging users with rewards, gamification, and bonuses so they feel valued for their time.
+* A tiered system of rewards will give users borders, profiles, and regularly released new content. Users can earn in-app currency through engagement like comments and interacting with other users.
+* Transit themed mascots, avatars, and characters allow users to customize their profiles with characters like Boop, Barty, and more
+* Rewards and long term goals like exclusive packages would prevent burnout and keep users engaging with the app long-term
 ![Feature: Arrivals](../rmt_assets/feature_rewards.png)
 
 
