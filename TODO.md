@@ -32,3 +32,9 @@ search bar stopped working after we added the changes to the navbar
 include_relative project_classes/project_search.html
 
 ```
+
+# embed figma prototype resume
+```
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/aNkaXJYQyoLDqexU5coIrU/resumes?node-id=149-1520&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>
+
+```
