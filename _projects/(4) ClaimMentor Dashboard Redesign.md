@@ -1,7 +1,7 @@
 ---
 name: 'Intern Project: ClaimMentor Dashboard Redesign'
 tools: [Web Design, Dashboard Design, Insurance]
-image: ../rmt_assets/cover.png
+image: ../claimmentor_assets/meeting_summary.png
 description: 'My intern project: A unified platform using AI tools to help insurance claimants and insurance adjusters organize files, schedule meetings, and streamline the claims process.'
 project_date: August 24, 2024 - January 1, 2025
 ---
