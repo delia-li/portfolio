@@ -1,7 +1,7 @@
 ---
 name: League of Skins
 tools: [Mobile Design, Gaming]
-image: ../leagueofskins_assets/cover.png
+image: https://delia-li.github.io/portfolio/leagueofskins_assets/cover.png
 description: League of Skins is a mobile gaming companion designed to help League of Legends players track their performance on their champions while using skins.
 project_date: November 15, 2023 - December 10, 2023
 ---

@@ -1,7 +1,7 @@
 ---
 name: Dr. Succulent
 tools: [Web Design, Blog, Gardening]
-image: ../succulent_assets/cover.png
+image: https://delia-li.github.io/portfolio/succulent_assets/cover.png
 description: A succulent care blog and newsletter run by three gardening enjoyers to help gardeners around the world with their green collections.
 project_date: "December 12, 2023 - January 1, 2024"
 ---
